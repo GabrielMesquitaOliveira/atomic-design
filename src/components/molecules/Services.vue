@@ -16,8 +16,10 @@ export default defineComponent({
 })
 </script>
 
-<style scoped>
-.service {
+<style scoped lang="scss">
+.services {
+  display: flex;
+  flex-direction: column;
   .title {
     color: #935e92;
     font-weight: bold;
